@@ -1,4 +1,4 @@
-# Elevate Web Solutions
+# ElevateWeb Solutions
 #### Este projeto é um protótipo de uma landing page para uma empresa, construída utilizando HTML e CSS. A página tem como objetivo apresentar e promover o trabalho de uma empresa de desenvolvimento.
 ## Tecnologias Utilizadas
 #### HTML: Linguagem de marcação utilizada para estruturar a página web.
