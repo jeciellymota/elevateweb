@@ -6,12 +6,12 @@
 
 body{
     font-family: 'Popins', sans-serif;
-    background-image: url(../imagens/trabalho\ em\ equipe.jpg);
+    background-image: url(../images/trabalho\ em\ equipe.jpg);
     background-position: center;
 }
 header{
     height: 8vh;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.9);
 }
 nav{
     display: flex;
@@ -25,8 +25,8 @@ nav a{
     font-weight: 600;
     font-size: 13px;
 }
-nav a img{
-    width: 230px;
+a img{
+    width: 200px;
 }
 #navigation{
     display: flex;
@@ -37,7 +37,6 @@ nav a img{
 #home{
     height: 92vh;
     width: 100%;
-   
 }
 
 #title{
@@ -45,7 +44,7 @@ nav a img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.9);
     width: 100%;
     height: 100%;
     color: white;
@@ -63,6 +62,93 @@ nav a img{
     padding: 1rem 0;
 }
 
-footer{
-    background-color: #FFC876 ;
+#service{
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 92vh;
+}
+
+#service h1{
+    font-size: 1.8rem;
+    padding: 2rem 0;
+    color: #CB913A;
+}
+
+#experience{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.image-experience{
+    width: 6rem;
+    padding-bottom: 1rem;
+}
+
+#experience p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    font-weight: lighter;
+}
+
+#experience p span{
+    padding: 5px 0;
+    color: #FFC876;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+#types-of-services{
+    border-top: 1px solid rgb(155, 155, 155);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60%;
+    width: 100%;
+}
+
+#types-of-services p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 3px;
+    border: 1px solid rgb(155, 155, 155);
+    height: 15rem;
+    width: 18rem;
+    font-size: 13px;
+}
+
+#types-of-services p span{
+    color: #CB913A;
+    padding-bottom: 2rem;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#footer{
+    height: 5vh;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #CB913A;
+}
+
+footer span{
+    font-weight: bold;
+    font-size: 15px;
 }
