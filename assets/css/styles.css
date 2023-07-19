@@ -1,0 +1,68 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+}
+
+body{
+    font-family: 'Popins', sans-serif;
+    background-image: url(../imagens/trabalho\ em\ equipe.jpg);
+    background-position: center;
+}
+header{
+    height: 8vh;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+nav a{
+    color: #FFC876;
+    font-weight: 600;
+    font-size: 13px;
+}
+nav a img{
+    width: 230px;
+}
+#navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40%;
+}
+#home{
+    height: 92vh;
+    width: 100%;
+   
+}
+
+#title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+#title h3{
+    font-size: 15px;
+}
+
+#title h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100;
+    width: 1050px;
+    padding: 1rem 0;
+}
+
+footer{
+    background-color: #FFC876 ;
+}
